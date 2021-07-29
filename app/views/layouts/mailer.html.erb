@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Blog</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body style="background: #EEEEEE;">
+  <h1>Hello, Rails!</h1>
+<%= link_to "My Blog", posts_path %>
+    <%# <%= yield %> %>
+  </body>
+</html>
